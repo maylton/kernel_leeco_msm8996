@@ -73,7 +73,7 @@ UTS_TRUNCATE="cut -b -$UTS_LEN"
 
   echo \#define UTS_VERSION \"`echo $UTS_VERSION | $UTS_TRUNCATE`\"
 
-  echo \#define LINUX_COMPILE_BY \"`echo mosimchah | $UTS_TRUNCATE`\"
+  echo \#define LINUX_COMPILE_BY \"`echo moto999999 | $UTS_TRUNCATE`\"
   echo \#define LINUX_COMPILE_HOST \"`echo HardBrickingMachine | $UTS_TRUNCATE`\"
 
   echo \#define LINUX_COMPILER \"`$CC -v 2>&1 | grep ' version '`\"
