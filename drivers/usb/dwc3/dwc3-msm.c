@@ -3987,6 +3987,7 @@ static int dwc3_msm_pm_suspend(struct device *dev)
 	ret = dwc3_msm_suspend(mdwc);
 	if (!ret)
 		atomic_set(&mdwc->pm_suspended, 1);
+
 	if (mdwc->vbus_on && letv_audio_mode_supported(NULL) &&
 	    cclogic_get_audio_mode() == 0) {
 		_msm_usb_vbus_off(NULL);

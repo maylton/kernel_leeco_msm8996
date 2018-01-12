@@ -254,9 +254,9 @@ struct smbchg_chip {
 	struct work_struct		usb_set_online_work;
 	struct delayed_work		vfloat_adjust_work;
 	struct delayed_work		hvdcp_det_work;
-	struct delayed_work		letv_pd_set_vol_cur_work;
+	struct delayed_work	    letv_pd_set_vol_cur_work;
 	struct delayed_work		pd_charger_init_work;
-	struct delayed_work		first_detect_float_work;
+	struct delayed_work	    first_detect_float_work;
 	struct delayed_work		weak_charger_timeout_work;
 	struct delayed_work		batt_cool_warm_monitor;
 	struct delayed_work		vbus_monitor;
